@@ -31,9 +31,11 @@ body {
 .imgcont{
     position:relative;
     max-width: 100%;
+
 }
 .photo{
     max-width: 100%;
+    height: 100%
 }
 
 .shade{
