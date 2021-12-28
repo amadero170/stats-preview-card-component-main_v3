@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles-grid.css">
 
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -16,28 +16,26 @@
 
 
 </head>
-<body>
-  <div class = "maincont">
-   <div class="imgcont"> <img class="photo"
-     src='./images/image-header-mobile.jpg'
-     alt="Office picture happy colaborators">
-    <div class="shade"></div>
-  </div>
-    <div class = "infocont">
-      <h1>Get <span class="insight">insights</span> that help your business grow.
-      </h1>
-      <h2>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.</h2>
-      <h3> 
-        <div class="stats">10k+ <br><span class="stat_text">COMPANIES</span></div>
-        <div class="stats">314 <br><span class="stat_text">TEMPLATES</span></div>
-        <div class="stats">12M+ <br><span class="stat_text">QUERIES</span></div>
-      </h3>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Lolo</a>.
+  <body>
+    <div class = "maincont">
+      <div class = "infocont">
+        <h1 class="title">Get <span class="insight">insights</span> that help your business grow.</h1>
+        <h2 class="text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</h2>
+
+          <h3 class="stats1">10k+ <br><span class="stat_text">COMPANIES</span></h3>
+          <h3 class="stats2">314 <br><span class="stat_text">TEMPLATES</span></h3>
+          <h3 class="stats3">12M+ <br><span class="stat_text">QUERIES</span></h3>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Lolo</a>.
+        </div>
       </div>
-    </div>
-</div>
-</body>
+      <div class="imgcont"> 
+          <img class="photo" src='./images/image-header-mobile.jpg' alt="Office picture happy colaborators">
+          <div class="shade"></div>
+      </div>
+      </div>
+  </body>
 </html>

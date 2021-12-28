@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+.attribution { font-size: 8px; text-align: center;  grid-column-start: 2;
+    grid-column-end: 5; align-self: end; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    display: grid;
+}
+.maincont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(244, 38%, 16%);
+    margin: 17% auto;
+    padding:0;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 890px;
+    max-width: 900px;
+}
+.photo{
+  display: block;
+  width:100%;
+  mix-blend-mode:multiply;
+}
+.imgcont{
+    background-color: hsl(277, 64%, 61%);
+    min-width: 230px;
+}
+
+.infocont{
+    display: grid;
+    grid-template-columns: 1fr minmax(72.3px,2fr) minmax(72.3px,2fr) minmax(72.3px,2fr) minmax(36.2px,1fr) minmax(36.2px,1fr);
+    margin-top: 3%;
+}
+.title{
+    font-size: 28px;
+    grid-column: 2/ 7;
+    align-self: end;
+
+}
+.text{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7rem;
+    grid-column: 2 / 6;
+    align-self: center;
+    margin-top:15px;
+}
+h3{
+    
+    font-size: 15px;
+    align-self: end;
+}
+.stats1{
+    grid-column-start: 2;  
+}
+.stats2{
+    grid-column-start: 3; 
+}
+.stats3{
+    grid-column-start: 4;
+}
+.insight{
+    color: hsl(277, 64%, 61%);
+}
+.stat_text{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+@media (max-width:600px){
+.title{
+    font-size:28px;
+    text-align: center;
+    grid-column-start: 1;
+}
+.text{
+    font-size: 15px;
+    margin: 25px 3%;
+    grid-column-start: 1;
+    text-align: center;
+
+}
+h3{
+    font-size: 15px;
+    align-self: center;
+    grid-column-start: 1;
+}
+.maincont{
+    margin: 17% 4%;
+    grid-template-columns: 1fr;
+    min-width: 320px;
+
+}
+.imgcont{
+    min-width: none;
+}
+.infocont{
+    grid-row: 2;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin: 6% 10%;
+    margin-bottom: 0;
+}
+.stats1{
+    text-align: center;
+    grid-column-start: 1;
+}
+.stats2{
+    text-align: center;
+    grid-column-start: 2;
+}
+.stats3{
+    text-align: center;
+    grid-column-start: 3;
+}
+.stat_text{
+
+    font-size: 12px;
+    font-weight: 300;
+}
+.attribution { 
+    margin-top:10%;
+    grid-column-start: 1;
+
+  
+}
+}
